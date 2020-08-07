@@ -65,17 +65,6 @@ def TRAIN_MODEL(modelname):
     valid_padded_text = pad_sequences(valid_text,maxlen=max_len,padding='post',value=len(char_list))
 
 
-    del image
-    del text
-    del input_len
-    del label_len
-    del original_text
-    del new_image
-    del new_text
-    del new_input_len
-    del new_label_len
-    del new_original_text
-
     # Train the model
     model.fit(x=[train_image,train_padded_text,train_input_len,train_label_len],y=np.zeros(len(train_image)),batch_size=config.BATCH_SIZE,epochs=config.EPOCHS,
           validation_data =([valid_image,valid_padded_text,valid_input_len,valid_label_len],[np.zeros(len(valid_image))]),
