@@ -7,5 +7,5 @@ Coming Soon (Word Segmentation and updated model)
 The model architecture I have taken from this paper https://arxiv.org/pdf/1507.05717.pdf. 
 
 Dataset Used:
-  IAM Dataset(http://www.fki.inf.unibe.ch/databases/iam-handwriting-database) 
+  IAM Dataset(http://www.fki.inf.unibe.ch/databases/iam-handwriting-database)</br>
   CVL Dataset(https://cvl.tuwien.ac.at/research/cvl-databases/an-off-line-database-for-writer-retrieval-writer-identification-and-word-spotting/) 
