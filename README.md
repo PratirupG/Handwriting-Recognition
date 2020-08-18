@@ -11,5 +11,5 @@ Dataset Used:<br>
   CVL Dataset(https://cvl.tuwien.ac.at/research/cvl-databases/an-off-line-database-for-writer-retrieval-writer-identification-and-word-spotting/) 
 
 
-Prediction Results:<br>
+Prediction Results:<br><br>
 ![prediction](https://user-images.githubusercontent.com/57574802/90520703-55878200-e187-11ea-8e27-23b129db8709.jpg)
